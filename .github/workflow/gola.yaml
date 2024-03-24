@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - 's4'
+      - 'main'
 
 jobs:
   docker:
