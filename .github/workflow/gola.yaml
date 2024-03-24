@@ -3,12 +3,12 @@ name: ci
 on:
   push:
     branches:
-      - 'main'
+      - 's4'
 
 jobs:
   docker:
     runs-on: ubuntu-latest
-
+    
     steps:
       -
         name: Set up QEMU
