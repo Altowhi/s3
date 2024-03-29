@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: shutdown01/s1:latest
+          tags: shutdown01/s1:version 1.0
