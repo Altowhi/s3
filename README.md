@@ -1,6 +1,6 @@
 # CI/CD Workflow Exercise (Go)
 
-A hands-on exercise practicing CI/CD pipelines with GitHub Actions, done as part of my Cloud Computing coursework.
+Hands-on Docker CI/CD exercise using GitHub Actions to build and publish container images with Docker Buildx, QEMU, and Docker Hub.
 
 ## 📖 What this is
 A GitHub Actions CI workflow (`.github/workflows/go.yml`) that automatically builds a Docker image and pushes it to Docker Hub on every push to the `s4` branch. Configured and iterated on by hand to understand how CI/CD pipelines are built — not a generated template.
